@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head >
+        <div class="main">
+        <h1 class="head_milk">🥛  Milk Center Mnagement System </h1>
+        </div>
+    </head>
+    <div class="dis">
+    <div class="add_farmer">
+        <h3>Add farmer</h3>
+        <input id="farmername" placeholder="Famer name" type="text"><br>
+        <input  id="village" placeholder="Village" type="text"><br>
+        <button id="addformer" class="btn">Add farmer</button>
 
+    </div>
+    <div class="milk_collection">
+        <h3>Milk Collection</h3>
+        <select  id="value"  name="" >
+
+        </select>
+        
+        <input id="liter" class="ipt" placeholder="milk(Liters)" type="text">
+        <input id="fat" class="ipt" placeholder="Fat%" type="text">
+        <button id="Add_collection" class="btns"> Add Collection</button>
+        
+    </div>
+     </div>
+     <div class="tablesdiv">
+
+    <div class="table">
+        <h3>Farmer List</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Village</th>
+            </tr>
+           <tbody id="farmersBody">
+
+      </tbody>
+        </table>
+
+    </div>
+
+    <div class="table">
+        <h3>Collection Records</h3>
+        <table>
+        <tr>
+            <th>Farmer</th>
+            <th>Qty(L)</th>
+            <th>Fat%</th>
+            <th>Data</th>
+        </tr>
+        <tr>
+     <tbody id="Collectiontable">
+
+      </tbody>
+        </tr>
+        </table>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

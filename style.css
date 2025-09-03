@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 235, 235);
+
+}
+
+.main{
+
+    height: 50px;
+    width: auto;
+    background-color: rgb(17, 218, 77);
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
+}
+.add_farmer{
+   margin-left: 2%;
+   height: 250px;
+   width: 600px;
+   background-color: white;
+   padding: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+   
+   
+}
+input{
+    width: 600px;
+    margin-top: 30px;
+    height: 30px;
+    border: none;
+    border-style:groove ;
+    
+    border-radius: 5px;
+}
+.btn{
+
+    width: 610px;
+    margin-top: 35px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.btns{
+
+    width: 610px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+h3{
+    color: green;
+}
+.milk_collection{
+      margin-left: 2%;
+   height: 250px;
+   width: 600px;
+   background-color: white;
+   padding: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+    
+}
+.ipt{
+     width: 600px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-style:groove ;
+    
+    border-radius: 5px;  
+}
+.dis{
+    display: flex;
+}
+select {
+      width: 600px;
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    border-style:groove ;
+    
+    border-radius: 5px;
+}
+table,th,td{
+    border-style:groove ;
+    border-collapse:collapse ;
+    padding: 10px;
+    height: 20px;
+    width: 600px;
+    border: none;
+    border-style: solid;
+    border-color: rgb(10, 2, 2);
+}
+.table{
+       margin-left: 2%;
+   height: auto;
+   width: 600px;
+   background-color: white;
+   padding: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+
+}
+th{
+    background-color: green;
+    color: white;
+}
+.tablesdiv{
+    display: flex;
+}
