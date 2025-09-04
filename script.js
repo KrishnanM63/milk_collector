@@ -22,6 +22,9 @@ collectionbtn.addEventListener("click",()=>{
     
     const now=new Date()
     const c_table=document.querySelector("#Collectiontable").innerHTML+=`<tr><td>${selections.value}</td><td>${liters.value}</td><td>${fats.value}</td><td>${now.toString()}</td></tr>`
+    selections.value=""
+    liters.value=""
+    fats.value=""
     }else{
          alert("Fill all fields")
     }
